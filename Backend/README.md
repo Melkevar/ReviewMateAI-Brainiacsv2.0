@@ -9,7 +9,7 @@ npm install
 ```bash
 npm start
 ```
-3.Swagger docs: Visit
+3. Swagger docs: Visit
 ```bash
 http://localhost:3000/api-docs
 
