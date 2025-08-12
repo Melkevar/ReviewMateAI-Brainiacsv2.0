@@ -71,7 +71,7 @@ Error Responses:
 }
 ```
 
-2. Contract Management
+## **2. Contract Management
 
 2.1 Upload Contract
 
@@ -130,7 +130,7 @@ Success Response (200 OK):
 
 ```
 
-3. Contract Review & Analysis
+## **3. Contract Review & Analysis
 
 3.1 Get AI Review of a Contract
 
@@ -180,7 +180,7 @@ Success Response (200 OK):
 
 ---
 
-4. Error Format
+## **4. Error Format
 
 All error responses follow this format:
 ```json
