@@ -40,7 +40,7 @@ All responses are returned in JSON format.
 
 ## **1. Authentication & User Management**
 
-### 1.1 User Registration
+1.1 User Registration
 - Feature: Register a new user  
 - Method: POST  
 - Endpoint: `/api/auth/register`  
