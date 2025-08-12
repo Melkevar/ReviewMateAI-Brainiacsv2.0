@@ -38,9 +38,9 @@ All responses are returned in JSON format.
 
 ---
 
-## **1. Authentication & User Management**
+# **1. Authentication & User Management**
 
-# 1.1 User Registration
+## 1.1 User Registration
 - Feature: Register a new user  
 - Method: POST  
 - Endpoint: `/api/auth/register`  
@@ -71,9 +71,9 @@ Error Responses:
 }
 ```
 
-## **2. Contract Management**
+# **2. Contract Management**
 
-# 2.1 Upload Contract
+## 2.1 Upload Contract
 
 - Feature: Upload a contract for review
 
@@ -106,7 +106,7 @@ Error Responses:
 ```
 ---
 
-# 2.2 Get All Contracts
+## 2.2 Get All Contracts
 
 - Feature: Retrieve all uploaded contracts for a user
 
@@ -130,9 +130,9 @@ Error Responses:
 
 ```
 
-## **3. Contract Review & Analysis**
+# **3. Contract Review & Analysis**
 
-# 3.1 Get AI Review of a Contract
+## 3.1 Get AI Review of a Contract
 
 - Feature: Retrieve AI review results for a specific contract
 
@@ -160,7 +160,7 @@ Error Responses:
 ```
 ---
 
-# 3.2 Delete Contract
+## 3.2 Delete Contract
 
 - Feature: Delete a contract by ID
 
@@ -180,7 +180,7 @@ Error Responses:
 
 ---
 
-## **4. Error Format**
+# **4. Error Format**
 
 - All error responses follow this format:
 ```json
