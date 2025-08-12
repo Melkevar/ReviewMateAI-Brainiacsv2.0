@@ -62,7 +62,36 @@ Success Response (201 Created):
 }
 
 ```
+## 1.2 User Login
 
+Feature: Login an existing user
+
+HTTP Method: POST
+
+Endpoint: `/api/auth/login`
+
+Description: Authenticates a user and returns a JWT token.
+
+Request Body:
+
+```json
+{
+  "email": "john@example.com",
+  "password": "securePassword123"
+}
+```
+Success Response (200 OK):
+
+```json
+{
+  "token": "jwt_token_here",
+  "user": {
+    "id": "64afae6b9c45e",
+    "name": "John Doe",
+    "email": "john@example.com"
+  }
+}
+```
 Error Responses:
 
 ```json
