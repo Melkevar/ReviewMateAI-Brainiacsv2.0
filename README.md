@@ -1,7 +1,8 @@
 # ReviewMateAI-Brainiacsv2.0
 
 ## Project Description
-Review Mate AI is an intelligent contract review and compliance platform designed to streamline document analysis. It leverages AI-powered natural language processing to identify critical clauses, assess risk, and ensure compliance with regulations such as GDPR and CCPA. Our goal is to make contract review faster, more accurate, and accessible to  businesses professionals.
+## Description
+Review Mate AI is an AI-powered contract review and compliance assistant designed to help businesses, HR teams and quickly analyze job contracts. It automatically identifies potential risks, highlights key clauses, and provides actionable suggestions to ensure compliance with relevant laws and regulations. The system leverages advanced natural language processing (NLP) and machine learning to make contract review faster, more accurate, and more efficient.
 
 ## Team Members
 - [Melkevar Fernandes](https://github.com/melkevar) — Team Lead
