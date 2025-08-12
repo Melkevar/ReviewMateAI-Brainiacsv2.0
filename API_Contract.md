@@ -79,7 +79,7 @@ Error Responses:
 
 - HTTP Method: POST
 
-- Endpoint: /api/contracts/upload
+- Endpoint: `/api/contracts/upload`
 
 - Description: Uploads a contract file (PDF/DOCX) for AI review.
 
@@ -112,7 +112,7 @@ Error Responses:
 
 - HTTP Method: GET
 
-- Endpoint: /api/contracts
+- Endpoint: `/api/contracts`
 
 - Description: Returns a list of contracts uploaded by the logged-in user.
 
@@ -138,7 +138,7 @@ Error Responses:
 
 - HTTP Method: GET
 
-- Endpoint: /api/contracts/{id}/review
+- Endpoint: `/api/contracts/{id}/review`
 
 - Description: Returns AI-detected risks and compliance results.
 
@@ -166,7 +166,7 @@ Error Responses:
 
 - HTTP Method: DELETE
 
-- Endpoint: /api/contracts/{id}
+- Endpoint: `/api/contracts/{id}`
 
 - Description: Removes the contract and associated review results.
 
