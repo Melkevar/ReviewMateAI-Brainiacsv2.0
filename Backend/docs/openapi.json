@@ -1,1 +1,18 @@
-
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "API Contract Backend",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/api/auth/register": { "post": { "summary": "Register a new user" } },
+    "/api/auth/login": { "post": { "summary": "Login a user" } },
+    "/api/contracts/upload": { "post": { "summary": "Upload a contract file" } },
+    "/api/contracts": { "get": { "summary": "Get all contracts for user" } },
+    "/api/contracts/{id}/review": {
+      "get": { "summary": "Get AI review for a contract" },
+      "post": { "summary": "Generate AI review for a contract" }
+    },
+    "/api/contracts/{id}": { "delete": { "summary": "Delete a contract" } }
+  }
+}
