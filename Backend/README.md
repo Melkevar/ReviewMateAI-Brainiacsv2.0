@@ -1,4 +1,4 @@
-# API Contract Backend (Split Structure)
+# API Contract Backend 
 
 ## Setup
 1. Install dependencies:
