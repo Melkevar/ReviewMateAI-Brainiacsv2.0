@@ -53,6 +53,15 @@ All responses are returned in JSON format.
   "password": "securepassword123"
 }
 ```
+Success Response (201 Created):
+
+```json
+{
+  "message": "User registered successfully",
+  "userId": "64afae6b9c45e"
+}
+
+```
 
 Error Responses:
 
