@@ -70,7 +70,7 @@ Error Responses:
   "error": "Invalid email or password"
 }
 ```
-
+---
 # **2. Contract Management**
 
 ## 2.1 Upload Contract
@@ -129,7 +129,7 @@ Error Responses:
 
 
 ```
-
+---
 # **3. Contract Review & Analysis**
 
 ## 3.1 Get AI Review of a Contract
@@ -189,4 +189,4 @@ Error Responses:
 }
 
 ```
-
+---
