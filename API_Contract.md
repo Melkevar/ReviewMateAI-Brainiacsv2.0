@@ -40,7 +40,7 @@ All responses are returned in JSON format.
 
 ## **1. Authentication & User Management**
 
-1.1 User Registration
+# 1.1 User Registration
 - Feature: Register a new user  
 - Method: POST  
 - Endpoint: `/api/auth/register`  
@@ -73,22 +73,22 @@ Error Responses:
 
 ## **2. Contract Management**
 
-2.1 Upload Contract
+# 2.1 Upload Contract
 
-Feature: Upload a contract for review
+- Feature: Upload a contract for review
 
-HTTP Method: POST
+- HTTP Method: POST
 
-Endpoint: /api/contracts/upload
+- Endpoint: /api/contracts/upload
 
-Description: Uploads a contract file (PDF/DOCX) for AI review.
+- Description: Uploads a contract file (PDF/DOCX) for AI review.
 
-Request Body: multipart/form-data
+- Request Body: multipart/form-data
 
 
-file: <uploaded_file>
+- file: <uploaded_file>
 
-Success Response (201 Created):
+- Success Response (201 Created):
 ```json
 
 {
@@ -106,17 +106,17 @@ Error Responses:
 ```
 ---
 
-2.2 Get All Contracts
+# 2.2 Get All Contracts
 
-Feature: Retrieve all uploaded contracts for a user
+- Feature: Retrieve all uploaded contracts for a user
 
-HTTP Method: GET
+- HTTP Method: GET
 
-Endpoint: /api/contracts
+- Endpoint: /api/contracts
 
-Description: Returns a list of contracts uploaded by the logged-in user.
+- Description: Returns a list of contracts uploaded by the logged-in user.
 
-Success Response (200 OK):
+- Success Response (200 OK):
 
 ```json
 [
@@ -132,17 +132,17 @@ Success Response (200 OK):
 
 ## **3. Contract Review & Analysis**
 
-3.1 Get AI Review of a Contract
+# 3.1 Get AI Review of a Contract
 
-Feature: Retrieve AI review results for a specific contract
+- Feature: Retrieve AI review results for a specific contract
 
-HTTP Method: GET
+- HTTP Method: GET
 
-Endpoint: /api/contracts/{id}/review
+- Endpoint: /api/contracts/{id}/review
 
-Description: Returns AI-detected risks and compliance results.
+- Description: Returns AI-detected risks and compliance results.
 
-Success Response (200 OK):
+- Success Response (200 OK):
 
 ```json
 {
@@ -160,17 +160,17 @@ Success Response (200 OK):
 ```
 ---
 
-3.2 Delete Contract
+# 3.2 Delete Contract
 
-Feature: Delete a contract by ID
+- Feature: Delete a contract by ID
 
-HTTP Method: DELETE
+- HTTP Method: DELETE
 
-Endpoint: /api/contracts/{id}
+- Endpoint: /api/contracts/{id}
 
-Description: Removes the contract and associated review results.
+- Description: Removes the contract and associated review results.
 
-Success Response (200 OK):
+- Success Response (200 OK):
 
 ```json
 {
@@ -182,7 +182,7 @@ Success Response (200 OK):
 
 ## **4. Error Format**
 
-All error responses follow this format:
+- All error responses follow this format:
 ```json
 {
   "error": "Error message here"
